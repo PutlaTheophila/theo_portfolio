@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./contact.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Istok Web:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="contact2">
+      <section class="image-parent">
+        <div class="image1"></div>
+        <div class="frame-wrapper">
+          <div class="home-group">
+            <button class="home2" id="home">
+              <div class="home-item"></div>
+              <div class="home3">HOME</div>
+            </button>
+            <button class="programming2" id="programming">
+              <div class="programming-item"></div>
+              <div class="programming3">PROGRAMMING</div>
+            </button>
+            <div class="new-btn1" id="newBtnContainer">
+              <div class="new-btn-item"></div>
+              <div class="projects2">PROJECTS</div>
+            </div>
+            <button class="contact3">
+              <img
+                class="contact-item"
+                alt=""
+                src="./public/rectangle-22.svg"
+              />
+
+              <div class="contact4">CONTACT</div>
+            </button>
+          </div>
+        </div>
+      </section>
+      <div class="table-container">
+        <div class="contact-table">
+          <div class="contact-table-child"></div>
+          <div class="frame-group">
+            <div class="name-field-parent">
+              <div class="name-field">
+                <div class="name-field-child"></div>
+              </div>
+              <div class="frame-inner"></div>
+            </div>
+            <div class="message-input"></div>
+          </div>
+          <div class="contact-table-inner">
+            <button class="rectangle-parent">
+              <div class="rectangle-div"></div>
+              <div class="submit">SUBMIT</div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var home = document.getElementById("home");
+      if (home) {
+        home.addEventListener("click", function (e) {
+          window.location.href = "./main.html";
+        });
+      }
+      
+      var programming = document.getElementById("programming");
+      if (programming) {
+        programming.addEventListener("click", function (e) {
+          window.location.href = "./nformation.html";
+        });
+      }
+      
+      var newBtnContainer = document.getElementById("newBtnContainer");
+      if (newBtnContainer) {
+        newBtnContainer.addEventListener("click", function (e) {
+          window.location.href = "./new.html";
+        });
+      }
+      </script>
+  </body>
+</html>

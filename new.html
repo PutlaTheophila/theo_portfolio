@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./new.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Istok Web:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="new">
+      <header class="image-group">
+        <div class="image2"></div>
+        <div class="image-circle">
+          <div class="home-container">
+            <button class="home4" id="home">
+              <div class="home-inner"></div>
+              <div class="home5">HOME</div>
+            </button>
+            <button class="programming4" id="programming">
+              <div class="programming-inner"></div>
+              <div class="programming5">PROGRAMMING</div>
+            </button>
+            <div class="new-btn2">
+              <div class="new-btn-inner"></div>
+              <div class="projects3">
+                <p class="projects4">PROJECTS</p>
+              </div>
+            </div>
+            <button class="contact5" id="contact">
+              <img
+                class="contact-inner"
+                alt=""
+                src="./public/rectangle-22.svg"
+              />
+
+              <div class="contact6">CONTACT</div>
+            </button>
+          </div>
+        </div>
+      </header>
+      <section class="frame-container">
+        <div class="rectangle-group">
+          <div class="frame-child1"></div>
+          <h3 class="title">TITLE</h3>
+        </div>
+        <div class="project-description">
+          <div class="project-body"></div>
+          <div class="project-image">
+            <div class="img-project-parent">
+              <div class="img-project"></div>
+              <div class="project-info-wrapper">
+                <h3 class="project-info">this is about the project</h3>
+              </div>
+            </div>
+          </div>
+          <div class="more-info-abt-project-btn-parent">
+            <div class="more-info-abt-project-btn"></div>
+            <h3 class="more">more.....</h3>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      var home = document.getElementById("home");
+      if (home) {
+        home.addEventListener("click", function (e) {
+          window.location.href = "./index.html";
+        });
+      }
+      
+      var programming = document.getElementById("programming");
+      if (programming) {
+        programming.addEventListener("click", function (e) {
+          window.location.href = "./nformation.html";
+        });
+      }
+      
+      var contact = document.getElementById("contact");
+      if (contact) {
+        contact.addEventListener("click", function (e) {
+          window.location.href = "./contact.html";
+        });
+      }
+      </script>
+  </body>
+</html>

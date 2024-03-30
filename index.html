@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Istok Web:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div class="image"></div>
+      <div class="main-inner">
+        <div class="home-parent">
+          <button class="home">
+            <div class="home-child"></div>
+            <div class="home1">HOME</div>
+          </button>
+          <button class="programming" id="programming">
+            <div class="programming-child"></div>
+            <div class="programming1">PROGRAMMING</div>
+          </button>
+          <div class="new-btn" id="newBtnContainer">
+            <div class="new-btn-child"></div>
+            <div class="projects">
+              <p class="projects1">PROJECTS</p>
+            </div>
+          </div>
+          <button class="contact" id="contact">
+            <img class="contact-child" alt="" src="./public/rectangle-22.svg" />
+
+            <div class="contact1">CONTACT</div>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var programming = document.getElementById("programming");
+      if (programming) {
+        programming.addEventListener("click", function (e) {
+          window.location.href = "./nformation.html";
+        });
+      }
+      
+      var newBtnContainer = document.getElementById("newBtnContainer");
+      if (newBtnContainer) {
+        newBtnContainer.addEventListener("click", function (e) {
+          window.location.href = "./new.html";
+        });
+      }
+      
+      var contact = document.getElementById("contact");
+      if (contact) {
+        contact.addEventListener("click", function (e) {
+          window.location.href = "./contact.html";
+        });
+      }
+      </script>
+  </body>
+</html>

@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-istok-web: "Istok Web";
+    --font-inter: Inter;
+  
+    /* font sizes */
+    --font-size-xl: 20px;
+    --font-size-base: 16px;
+    --font-size-5xl: 24px;
+    --font-size-11xl: 30px;
+    --font-size-lg: 18px;
+  
+    /* Colors */
+    --color-darkslategray: #092c33;
+    --color-black: #000;
+    --color-azure: #f2fdff;
+    --color-teal: #0886a1;
+    --color-cadetblue: #2eadc7;
+    --color-gainsboro-100: #d9e3e6;
+    --color-gainsboro-200: rgba(217, 217, 217, 0);
+    --color-white: #fff;
+  
+    /* Gaps */
+    --gap-xl: 20px;
+    --gap-16xl-3: 35.3px;
+    --gap-21xl: 40px;
+    --gap-14xl: 33px;
+  
+    /* Paddings */
+    --padding-70xl: 89px;
+    --padding-116xl: 135px;
+    --padding-14xl: 33px;
+    --padding-15xl: 34px;
+    --padding-48xl: 67px;
+    --padding-25xl: 44px;
+    --padding-mid: 17px;
+    --padding-base: 16px;
+    --padding-lg: 18px;
+    --padding-12xl: 31px;
+    --padding-lgi: 19px;
+    --padding-8xs: 5px;
+    --padding-sm: 14px;
+    --padding-32xl: 51px;
+    --padding-xl: 20px;
+    --padding-3xl: 22px;
+    --padding-9xs: 4px;
+    --padding-39xl: 58px;
+    --padding-41xl: 60px;
+    --padding-42xl: 61px;
+    --padding-mini: 15px;
+    --padding-6xl: 25px;
+    --padding-38xl: 57px;
+  
+    /* Border radiuses */
+    --br-11xl: 30px;
+  }
+  
